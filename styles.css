@@ -13,12 +13,15 @@
   --text-secondary: #374151;
 
   /* Borders & accents */
-  --border-default: #e5e7eb;
-  --accent: #2563eb;
+  --border-default: #D5EBF5;
+  --accent: #4D97AD;
+
+  --tab-matters-bg: #78BE20;
+  --tab-matters-text: #000000;
 
    /* Buttons */
-   --button-default: #006275;
-   --button-text: #F0F1EA
+   --button-default: #D5EBF5;
+   --button-text: #000000;
 }
 
 /* Dark theme overrides */
@@ -30,12 +33,15 @@
   --text-primary: #e5e7eb;
   --text-secondary: #cbd5f5;
 
-  --border-default: #334155;
-  --accent: #60a5fa;
+  --border-default: #006275;
+  --accent: #D5EBF5;
+
+  --tab-matters-bg: #12743C;
+  --tab-matters-text: #F0F1EA;
 
       /* Buttons */
-   --button-default: #D5EBF5;
-   --button-text: #000000;
+   --button-default: #006275;
+   --button-text: #ffffff;
 }
 
 /* =====================================================
@@ -314,6 +320,10 @@ body {
 
 .tab-matters {
   padding-left: 2rem;
+  background: var(--tab-matters-bg);
+  border: 1px solid var(--border-default);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
 }
 
 .tabs h4 {
@@ -327,6 +337,7 @@ body {
 .tab-info p{
   margin-bottom: 0.75rem;
 }
+
 
 /* =====================================================
    Motion Preferences
