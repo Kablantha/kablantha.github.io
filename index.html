@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learner Experience Design</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<!-- Skip to content -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="page-header" role="banner">
+  <div class="page-header-inner">
+    <div class="header-overlay">
+      <h1>Learner Experience Design</h1>
+    </div>
+  </div>
+</header>
+
+<main id="main-content" class="layout" role="main">
+
+<!-- Sidebar -->
+<div class="sidebar">
+
+  <!-- Dark mode toggle -->
+  <div class="theme-toggle-wrapper">
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      role="switch"
+      aria-checked="false"
+    >
+      <span class="toggle-label">Dark mode</span>
+      <span class="toggle-state">Off</span>
+    </button>
+  </div>
+
+  <!-- Fast Facts -->
+<aside class="fast-facts" aria-label="Fast facts">
+  <h2 class="fact-header">Fast Facts</h2>
+  <ul>
+    <li>
+      <span class="fact-label">Format</span>
+  <span class="fact-value">
+    <span class="popover-wrap">
+      <button class="popover-trigger" aria-describedby="format-info">Online/Remote</button>
+      <div id="format-info" class="popover" role="tooltip" aria-hidden="true">
+        Classes take place primarily through an online learning portal. They may have synchronous meetings scheduled via video conference tools such as Zoom or Microsoft Teams.
+      </div>
+    </span>
+    </li>
+    <li>
+      <span class="fact-label">Degree Type</span>
+      <span class="fact-value">
+        <span class="popover-wrap">
+        <button class="popover-trigger" aria-describedby="degree-info">Graduate Certificate</button>
+      <div id="degree-info" class="popover" role="tooltip" aria-hidden="true">
+        A graduate certificate program is shorter and more focused than a Master's degree program.
+      </div>
+    </li>
+    <li>
+      <span class="fact-label">Program Length</span>
+      <span class="fact-value fact-value-tight">5 courses</span>
+      <span class="fact-value">16 credit hours</span>
+    </li>
+    <li>
+      <span class="fact-label">Cost</span>
+      <span class="fact-value">$855 per credit hour</span>
+    </li>
+    <li>
+      <span class="fact-label">Department</span>
+      <span class="fact-value">College of Liberal Arts</span>
+    </li>
+    <li>
+      <span class="fact-label">Contact</span>
+      <span class="fact-value fact-value-tight"><a href="tel:6517931457">(651) 793-1457</a></span>
+      <span class="fact-value fact-value-tight">St. John's Hall Suite 305</span>
+      <span class="fact-value">
+        <a href="mailto:cla@metrostate.edu">cla@metrostate.edu</a>
+      </span>
+
+    </li>
+  </ul>
+  
+</aside>
+</div>
+
+<!-- Popovers -->
+
+
+
+<section class="content-column">
+
+  <!-- What Is LXD -->
+  <section class="card">
+    <h2>What Is Learner Experience Design?</h2>
+      <p>
+        Learner Experience Design (LXD) combines the creativity of design with the field of training and development, with aspects of game design, cognitive psychology, and education. In practical terms, that means creating digital experiences that are based on how people learn, how they retain knowledge, and how they apply that knowledge in real-world scenarios.
+      </p>
+
+      <div class="tabs">
+        <div class="tab-list" role="tablist" aria-label="LXD Details">
+          <button class="tab active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="lxd-fit"
+                  id="lxd-fit-tab">
+            Who Belongs in LXD?
+          </button>
+
+          <button class="tab"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="lxd-learn"
+                  id="lxd-learn-tab">
+            What Will You Learn?
+          </button>
+        </div>
+
+        <section id="lxd-fit"
+                 class="tab-panel"
+                 role="tabpanel"
+                 aria-labelledby="lxd-fit-tab">
+          <p>Fit boilerplate
+          </p>
+        </section>
+
+        <section id="lxd-learn"
+                 class="tab-panel"
+                 role="tabpanel"
+                 aria-labelledby="lxd-learn-tab">
+          <p>
+            Learn boilerplate
+          </p>
+        </section>
+
+      </div>
+    </section>
+
+    <!-- How Does It Fit -->
+    <section class="card">
+      <h2>How Does LXD Fit Your Life?</h2>
+        <div class="tabs">
+          <div class="tab-list" role="tablist" aria-label="Barriers and Supports">
+            <button class="tab active"
+                    role="tab"
+                    aria-selected="true"
+                    aria-controls="life-time"
+                    id="life-time-tab">
+              Time
+            </button>
+
+            <button class="tab"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="life-money"
+                    id="life-money-tab">
+              Money
+            </button>
+            <button class="tab"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="life-community"
+                    id="life-community-tab">
+              Community
+            </button>
+          </div>
+
+          <section id="life-time"
+                   class="tab-panel"
+                   role="tabpanel"
+                   aria-labelledby="life-time-tab">
+            <p>Life doesn’t stop just because you’re in school. Adding school on top of work, family, and personal commitments can be a big ask.</p>
+            <p>The LXD program is offered entirely online and asynchronously. That means that you can do coursework when it makes sense for you. It doesn’t matter if you do before the sun comes up, after it goes down, or anywhere in between. It also means that you’re spending time driving to campus; your campus is anywhere you have an internet connection.</p>
+            <p>The certificate is made up of 5 courses over 16 credit hours. Many finish the program in 2-3 semesters (12-18 months). Your academic advisor can help you find the timetable that works best for you and your life.</p>
+          </section>
+
+          <section id="life-money"
+                   class="tab-panel"
+                   role="tabpanel"
+                   aria-labelledby="life-money-tab">
+            <p>Money boilerplate.</p>
+          </section>
+          <section id="life-community"
+                   class="tab-panel"
+                   role="tabpanel"
+                   aria-labelledby="life-community-tab">
+            <p>Community boilerplate.</p>
+          </section>
+        </div>
+    </section>
+
+    <section class="card">
+      <h2>Career Outcomes</h2>
+      <p>Outcomes boilerplate.</p>
+    </section>
+
+    <section class="card">
+      <h2>Next Steps</h2>
+      <p>Next steps boilerplate</p>
+    </section>
+
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
