@@ -320,6 +320,7 @@ body {
 
 .tab-matters {
   padding-left: 2rem;
+  color: var(--tab-matters-text);
   background: var(--tab-matters-bg);
   border: 1px solid var(--border-default);
   border-radius: 8px;
