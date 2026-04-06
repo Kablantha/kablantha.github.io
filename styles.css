@@ -313,7 +313,7 @@ body {
 }
 
 .tabs, .tab-matters {
-  margin-left: 1rem;
+  padding-left: 1rem;
 }
 
 .tabs h4 {
