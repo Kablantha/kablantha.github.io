@@ -312,7 +312,7 @@ body {
   display: block;
 }
 
-.tabs, .tab-matters {
+.tab-matters {
   padding-left: 2rem;
 }
 
@@ -322,6 +322,10 @@ body {
 
 .tabs h3 {
   margin-bottom: .75rem;
+}
+
+.tab-matters p{
+  margin-top: 0.5rem;
 }
 
 /* =====================================================
