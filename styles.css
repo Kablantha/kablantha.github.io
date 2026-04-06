@@ -18,6 +18,7 @@
 
   --tab-matters-bg: #78BE20;
   --tab-matters-text: #000000;
+  --tab-matters-border: #12743C;
 
    /* Buttons */
    --button-default: #D5EBF5;
@@ -38,6 +39,7 @@
 
   --tab-matters-bg: #12743C;
   --tab-matters-text: #F0F1EA;
+  --tab-matters-border: #78BE20;
 
       /* Buttons */
    --button-default: #006275;
@@ -319,12 +321,11 @@ body {
 }
 
 .tab-matters {
-  padding-left: 2rem;
+  margin-left: 2rem;
   color: var(--tab-matters-text);
   background: var(--tab-matters-bg);
   border: 1px solid var(--border-default);
   border-radius: 8px;
-  padding: 1rem 1.25rem;
 }
 
 .tabs h4 {
