@@ -250,6 +250,10 @@ body {
   cursor: pointer;
 }
 
+.fact-button-container {
+  padding-top: 0.5rem;
+}
+
 /* =====================================================
    Cards (Main Content)
 ===================================================== */
