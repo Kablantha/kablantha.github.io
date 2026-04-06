@@ -317,7 +317,10 @@ body {
 }
 
 .tabs h4 {
-  padding-bottom: -1rem;
+  margin-bottom: 0rem;
+}
+.tab-matters p{
+  margin-top: 0rem;
 }
 
 /* =====================================================
