@@ -312,8 +312,8 @@ body {
   display: block;
 }
 
-.h3 {
-  border-top: 1px solid var(--border-default);
+.tabs, .tab-matters {
+  margin-left: 1rem;
 }
 
 /* =====================================================
