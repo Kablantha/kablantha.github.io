@@ -320,8 +320,12 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.tabs h3 {
-  margin-bottom: .75rem;
+.tab-info h3 {
+  margin-bottom: 0.5rem;
+}
+
+.tab-info p{
+  margin-bottom: 0.75rem;
 }
 
 /* =====================================================
