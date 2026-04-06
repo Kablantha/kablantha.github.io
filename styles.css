@@ -238,7 +238,7 @@ body {
   word-break: break-word;
 }
 
-.fact-button {
+.button, .fact-button {
   background-color: var(--button-default);
   border: none;
   color: var(--button-text);
