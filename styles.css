@@ -15,6 +15,10 @@
   /* Borders & accents */
   --border-default: #e5e7eb;
   --accent: #2563eb;
+
+   /* Buttons */
+   --button-default: #006275;
+   --button-text: #F0F1EA
 }
 
 /* Dark theme overrides */
@@ -28,6 +32,10 @@
 
   --border-default: #334155;
   --accent: #60a5fa;
+
+      /* Buttons */
+   --button-default: #D5EBF5;
+   --button-text: #000000;
 }
 
 /* =====================================================
@@ -228,6 +236,18 @@ body {
   color: var(--accent);
   text-decoration: underline;
   word-break: break-word;
+}
+
+.fact-button {
+  background-color: var(--button-default);
+  border: none;
+  color: var(--button-text);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 /* =====================================================
