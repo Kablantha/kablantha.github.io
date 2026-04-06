@@ -313,11 +313,11 @@ body {
 }
 
 .tabs, .tab-matters {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 .tabs h4 {
-  padding-bottom: 0.5rem;
+  padding-bottom: -1rem;
 }
 
 /* =====================================================
