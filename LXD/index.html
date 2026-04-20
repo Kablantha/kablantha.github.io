@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learner Experience Design</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  
+</head>
+
+<body>
+
+<!-- Skip to content -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="page-header" role="banner">
+  <div class="page-header-inner">
+    <div class="header-overlay">
+      <h1>Learner Experience Design<br>Graduate Certificate</h1>
+    </div>
+  </div>
+</header>
+
+<main id="main-content" class="layout" role="main">
+
+<!-- Sidebar -->
+<div class="sidebar">
+
+  <!-- Dark mode toggle -->
+  <div class="theme-toggle-wrapper">
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      role="switch"
+      aria-checked="false"
+    >
+      <span class="toggle-label">Dark mode</span>
+      <span class="toggle-state">Off</span>
+    </button>
+  </div>
+
+  <!-- Fast Facts -->
+<aside class="fast-facts" aria-label="Fast facts">
+  <h2 class="fact-header">Fast Facts</h2>
+  <ul>
+    <li>
+      <span class="fact-label">Format</span>
+  <span class="fact-value">
+    <span class="popover-wrap">
+      <button class="popover-trigger" aria-describedby="format-info">Online/Remote</button>
+      <div id="format-info" class="popover" role="tooltip" aria-hidden="true">
+        Classes take place primarily through an online learning portal. They may have synchronous meetings scheduled via video conference tools such as Zoom or Microsoft Teams.
+      </div>
+    </span>
+    </li>
+    <li>
+      <span class="fact-label">Degree Type</span>
+      <span class="fact-value">
+        <span class="popover-wrap">
+        <button class="popover-trigger" aria-describedby="degree-info">Graduate Certificate</button>
+      <div id="degree-info" class="popover" role="tooltip" aria-hidden="true">
+        A graduate certificate program is shorter and more focused than a Master's degree program.
+      </div>
+    </li>
+    <li>
+      <span class="fact-label">Program Length</span>
+      <span class="fact-value fact-value-tight">5 courses</span>
+      <span class="fact-value">16 credit hours</span>
+    </li>
+    <li>
+      <span class="fact-label">Cost</span>
+      <span class="fact-value">$855 per credit hour*</span>
+      <span class="disclaimer">*As of 2026, not including any<br>additional fees or expenses.</span>
+    </li>
+    <li>
+      <span class="fact-label">Department</span>
+      <span class="fact-value">College of Liberal Arts</span>
+    </li>
+    <li>
+      <span class="fact-label">Contact</span>
+      <span class="fact-value fact-value-tight"><a href="tel:6517931457">(651) 793-1457</a></span>
+      <span class="fact-value fact-value-tight">St. John's Hall Suite 305</span>
+      <span class="fact-value">
+        <a href="mailto:cla@metrostate.edu">cla@metrostate.edu</a>
+      </span>
+    </li>
+    <li class="fact-button-container">
+      <span class="fact-label"><a href="https://metrostate.edu/apply-now" target="_blank"><button class="fact-button">Apply Now</button></a></span>
+    </li>
+  </ul>
+  
+</aside>
+</div>
+
+<!-- Popovers -->
+
+
+
+<section class="content-column">
+
+  <!-- What Is LXD -->
+  <section class="card">
+    <h2>What Is Learner Experience Design?</h2>
+      <p>
+        Learner Experience Design (LXD) combines the creativity of design with the field of training and development, with aspects of game design, cognitive psychology, and education. In practical terms, that means creating digital experiences that are based on how people learn, how they retain knowledge, and how they apply that knowledge in real-world scenarios. 
+      </p>
+
+      <div class="tabs">
+        <div class="tab-list" role="tablist" aria-label="LXD Details">
+          <button class="tab active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="lxd-fit"
+                  id="lxd-fit-tab">
+            Who Belongs in LXD?
+          </button>
+
+          <button class="tab"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="lxd-learn"
+                  id="lxd-learn-tab">
+            What Will You Learn?
+          </button>
+        </div>
+
+        <section id="lxd-fit"
+                 class="tab-panel"
+                 role="tabpanel"
+                 aria-labelledby="lxd-fit-tab">
+                 <div class="tab-info-row">
+                  <div class="top-row">
+                    <div class="left-aligned">
+                    <p>
+                      Creative thinker? ✅</p>
+                      <p>Work well with others? ✅</p>
+                      <p>See from multiple perspectives? ✅</p>
+                      <p>Communicate well, both written and verbally? ✅</p>
+                    <p>
+                      Not a tech person? That’s okay. You’ll learn the technical side alongside your classmates as you progress through the program. You don't need to be a developer to begin; a basic level of comfort with technology is enough to begin, and the program builds from there. Students of all ages and technological knowledge have found success in this program.
+                    </p>
+                    </div>
+                    <div class="tab-quote">
+                      <p>
+                        “We designed a functional prototype. I wouldn't have known what these words even meant 6 months ago.”</p>
+                        <p class="quote-attribution">Current LXD student</p>
+                    </div>
+                  </div>
+                  <img src="fit-image.jpg" alt="Older adult working on a laptop. Photo by Vitaly Gariev on Unsplash." class="tab-image">
+                  
+        </section>
+
+        <section id="lxd-learn"
+                 class="tab-panel"
+                 role="tabpanel"
+                 aria-labelledby="lxd-learn-tab">
+          <div class="tab-info-learn">
+            <p>The Learner Experience Design Graduate Certificate is made up of <b>five courses</b>, all focused on getting you the skills you need to be successful in the field.</p>
+            <h3>Courses</h3>
+            <div class="tab-enclosure-learn"><h4>Foundations of Learner Experience Design (4 credits)</h4>
+              <p>This course is an introduction to the topic, and teaches concepts and techniques from design principles, instructional design, user experience design, and learning and development.</p></div>
+            <div class="tab-enclosure-learn"><h4>User Experience and Design Thinking (4 credits)</h4>
+              <p>This course focuses on user experience, with a user-centered approach. You’ll learn how to find what your learners need and want and test design solutions.</p></div>
+            <div class="tab-enclosure-learn"><h4>Tools for Learner Experience Design (2 credits)</h4>
+              <p>This course focuses on the eLearning tools you will actually use in your career. You will use these tools to create real learning experiences to meet the needs of an intended audience.</p></div>
+            <div class="tab-enclosure-learn"><h4>Strategies for Learner Experience Design (2 credits)</h4>
+                <p>This course is about the strategies and tools you will use to promote learner retention. It covers several strategies, all with an underlying emphasis on personalization and design.</p></div>
+            <div class="tab-enclosure-learn tab-enclosure-learn-end"><h4>Elective (4 credits)</h4>
+                <p>Your academic advisor will help you find which elective is best for you. Recommended classes will help support and elevate your knowledge, with topics including editing, project management, technical communication, and more.</p></div>
+          </div>
+        </section>
+
+      </div>
+    </section>
+
+    <!-- How Does It Fit -->
+    <section class="card">
+      <h2>LXD and Your Life</h2>
+        <div class="tabs">
+          <div class="tab-list" role="tablist" aria-label="Barriers and Supports">
+            <button class="tab active"
+                    role="tab"
+                    aria-selected="true"
+                    aria-controls="life-time"
+                    id="life-time-tab">
+              Time
+            </button>
+
+            <button class="tab"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="life-money"
+                    id="life-money-tab">
+              Money
+            </button>
+            <button class="tab"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="life-community"
+                    id="life-community-tab">
+              Support
+            </button>
+          </div>
+
+          <section id="life-time"
+                   class="tab-panel"
+                   role="tabpanel"
+                   aria-labelledby="life-time-tab">  
+            <div class="tab-info">
+              <p>Life doesn’t stop just because you’re in school. Adding school on top of work, family, and personal commitments can be a big ask.</p>
+              <h3>Program Format</h3>
+              <p>Online/Remote</p>
+                <div class="tab-matters">
+                <h4>Why That Matters</h4>
+                <p>The LXD program is offered entirely online and asynchronously. That means that you can do coursework when it makes sense for you. It doesn’t matter if you do before the sun comes up, after it goes down, or anywhere in between. It also means that you’re not spending time driving to campus; your campus is anywhere you have an internet connection.</p>
+              </div>
+                <h3>Program Length</h3>
+              <p>5 courses, 16 credit hours</p>
+                <div class="tab-matters">
+                <h4>Why That Matters</h4>
+                <p>The certificate is made up of 5 courses over 16 credit hours. Many finish the program in 2-3 semesters (12-18 months). Your academic advisor can help you find the timetable that works best for you and your life.</p>
+              </div>
+              </div>
+          </section>
+
+          <section id="life-money"
+                   class="tab-panel"
+                   role="tabpanel"
+                   aria-labelledby="life-money-tab">
+            <div class="tab-info">
+              <p>Graduate courses at Metro State University are $855 per credit hour.*</p>
+              <p>At 16 credit hours, the total cost of the LXD graduate certificate is $13,680.</p>
+              <p class="disclaimer">*As of 2026, not including any additional fees or expenses.</p>
+                <div class="tab-matters">
+                <h4>Paying for Your Education</h4>
+                <p><a href=http://metrostate.edu/finances/getting-started/graduate-students target=”_blank”>Gateway Student Services</a> can help you find options for assisting with the cost of attendance, including scholarships and educational loans.</p>
+                <p>Many employers also have tuition reimbursement programs available. Check with your employer’s Employee Resources to see if yours offers assistance.</p>
+
+              </div>
+              </div>
+          </section>
+          <section id="life-community"
+                   class="tab-panel"
+                   role="tabpanel"
+                   aria-labelledby="life-community-tab">
+            <h3>Resources</h3>
+            <p>Metro State has several offices dedicated to supporting your life both inside and outside the classroom.</p>
+            <p>The <a href="https://www.metrostate.edu/accessibility" target="_blank">Center for Accessibility Resources</a> helps to ensure that university services are accessible and works to minimize the barriers that disability can create for students.</p>
+            <p><a href="https://www.metrostate.edu/students/support/mental-health-wellness-resources" target="_blank">Metro State Mental Health and Wellness Resources</a> provide a centralized list of campus and community support options for a wide range of mental health needs.</p>
+            <p>The <a href="https://services.metrostate.edu/" target="_blank">Metro State Service Center</a> offers a Knowledge Base and an online portal for technical support. For in-person assistance, the Library and Learning Center’s first-floor desk can help with application and software issues related to your studies.</p>
+            <p>See all the resources available on the <a href="https://www.metrostate.edu/students/support" target="_blank">Metro State Student Support</a> website.</p>
+            <h3>Academic Assistance</h3>
+            <p>Metro State’s Library and Learning Center is a hub for academic assistance. Librarians are available to provide research support, from help searching databases to evaluating sources and managing citations. The Library also offers writing support, helping students develop and revise their writing, organize ideas, and apply citation styles. Research and writing assistance are available within the Library both in-person and online, ensuring flexible support that works with your schedule.</p>
+            <p>Visit the <a href="https://library.metrostate.edu/help/" target="_blank">Library and Learning Center</a> webpage to learn more about how it can help you.</p>
+            <h3>Age and Adult Learners</h3>
+            <p>One of the biggest challenges when working adults return to college is the concern that they’ll be the oldest person in the room. In Learner Experience Design, that doesn’t have to be part of the equation. The majority of LXD students are adults who have been in the workforce and are now seeking to advance, shift, or re-focus their careers. </p>
+          </section>
+        </div>
+    </section>
+
+    <section class="card">
+      <h2>Career Outcomes</h2>
+      <img src="outcomes-image.jpg" alt="Students collaborating around a computer during a hands-on activity. Photo by Desola Lanre-Ologun on Unsplash." class="tab-image">
+      <p>Learner Experience Design is a field that crosses industries. From mobile apps to non-profit organizations, most industries implement training programs in some form, whether it’s training students, employees, or customers.</p>
+      <p>Graduates of the Learner Experience Design program are prepared for careers such as:</p>
+      <ul>
+        <li>Instructional Designer</li>
+        <li>Learning Architect</li>
+        <li>eLearning Developer</li>
+        <li>Digital Learning Designer</li>
+        <li>Learning Experience Designer</li>
+        <li>Training Design Specialist</li>
+      </ul>
+      <p>Some job titles and their salaries are listed below. Salary may vary based on location, industry, and level of experience.</p>
+      <table class="career-table w3-striped w3-bordered w3-hoverable">
+        <thead>
+          <tr>
+            <th>Job Title</th>
+            <th>Growth*</th>
+            <th>Median Salary*</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Instructional Designer</td>
+            <td>1%</td>
+            <td>$74,720</td>
+          </tr>
+          <tr>
+            <td>Training and Design Specialist</td>
+            <td>11%</td>
+            <td>$65,850</td>
+          </tr>
+          <tr>
+            <td>Training and Design Manager</td>
+            <td>6%</td>
+            <td>$127,090</td>
+          </tr>
+          <tr>
+            <td>Learning Management System Designer</td>
+            <td>7%</td>
+            <td>$95,380</td>
+          </tr>
+        </tbody>
+        </table>
+        <span class="disclaimer">*As of 2024, per the <a href="https://www.bls.gov/ooh" target="_blank">Bureau of Labor Statistics Occupational Outlook Handbook</a>.</span>
+    </section>
+
+    <section class="card">
+      <h2>Next Steps</h2>
+      <div class="timeline">
+  <div class="container">
+    <div class="content">
+      <h3>Step 1: Apply</h3>
+      <div class="timeline-info"><p><a href="https://metrostate.edu/apply-now" target="_blank"><button class="fact-button">Apply Now</button></a></p>
+          <span class="popover-wrap">
+            <button class="popover-trigger" aria-describedby="deadline-info">Application Deadlines</button>
+              <div id="deadline-info" class="popover" role="tooltip" aria-hidden="true">
+                Fall: August 1<br>
+                Spring: December 1<br>
+                Summer: April 1</div>
+          </span>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="content">
+      <h3>Step 2: Submit Transcripts</h3>
+      <div class="timeline-info">
+      <p>Submit official transcripts from all previously attended institutions.</p>
+      <p>Minneosta State transcripts will be received automatically.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="content">
+      <h3>Step 3: FAFSA</h3>
+      <div class="timeline-info">
+      <p>Complete the Free Application for <a href="https://www.fafsa.gov" target="_blank">Federal Student Aid (FAFSA)</a> to determine your eligibility for federal student loans.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="content">
+      <h3>Step 4: Meet Your Advisor</h3>
+      <div class="timeline-info">
+      <p>Your academic advisor will help you plan a course schedule to best meet your needs.</p>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+    <div class="content">
+      <h3>Step 5: Register for Classes</h3>
+      <div class="timeline-info">
+      <p>Once you have met with your advisor and planned your course schedule, you can register for classes.</p>
+      <p>See <a href="https://www.metrostate.edu/academics/calendar" target="_blank">Academic Calendar</a> for registration dates.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
