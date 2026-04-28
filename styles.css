@@ -611,7 +611,7 @@ h4 {
   }
 
   .fast-facts ul {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
